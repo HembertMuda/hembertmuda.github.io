@@ -1,0 +1,341 @@
+/* CSS Document */
+*{
+	margin:0;	
+	padding:0;
+	font-family:zurich, Verdana, Geneva, sans-serif;
+}
+
+#page{
+	margin:0 17%;
+	box-shadow: 0 0 20px #999999;
+}
+
+a{
+	text-decoration:none;	
+	color:#999;
+	transition:.2s;
+}
+
+a:hover{
+	color:#000;	
+}
+
+header h2{
+	font-family:light, Verdana, Geneva, sans-serif;
+	font-size:15px;	
+}
+
+header{
+	padding:10px 15px 50px 15px;
+}
+
+header p{
+	float:right;
+}
+
+header h1{
+	margin-top:40px;
+}
+
+header #game{
+	padding:5px 20px;
+	background-color:#333;
+	color:#FFF;
+	float:right;
+	position:relative;
+	top:-10px;
+	left:-20%;
+	transition:.3s;
+}
+
+header #game:hover{
+	background-color:#000;
+	padding-top:25px;
+}
+
+header #game h2{
+	font-family:zurich;
+	font-variant:small-caps;
+	font-size:22px;
+}
+
+#tiret{
+	background:url(images/tirets.png);
+	height:1px;
+}
+
+#sanstiret{
+	padding:15px;
+}
+
+#vimeo{
+	background:url(images/vimeo_logo_rond.png);
+	margin-left:10px;
+	width:40px;
+	height:40px;
+	float:right;
+	opacity:0.6;
+	transition:.2s;
+}
+#vimeo:hover{
+	opacity:1;
+}
+
+#linkedin{
+	background:url(images/linkedin.png);
+	margin-left:10px;
+	width:40px;
+	height:40px;
+	float:right;
+	opacity:0.6;
+	transition:.2s;
+}
+#linkedin:hover{
+	opacity:1;
+}
+
+body menu ul li{
+	display:inline;	
+	font-size:30px;
+	margin:10px 30px 10px 0;
+}
+
+img#right{
+	float:right;	
+}
+
+menu#categorie{
+	height:150px;
+	margin-left:32%;	
+}
+
+menu#categorie div{
+	margin-left:40px;	
+}
+
+#crayon{
+	background:url(images/crayon_normale.png) no-repeat;
+	width:78px;
+	height:60px;
+	float:left;
+}
+
+#cube{
+	background:url(images/cube_normale.png) no-repeat;
+	width:57px;
+	height:60px;
+	float:left;
+}
+
+#manette{
+	background:url(images/manette_normale.png) no-repeat;
+	width:100px;
+	height:60px;
+	float:left;
+}
+
+#manette:hover{
+	background:url(images/manette_hover.png) no-repeat;
+}
+
+#cube:hover{
+	background:url(images/cube_hover.png) no-repeat;
+}
+
+#crayon:hover{
+	background:url(images/crayon_hover.png) no-repeat;
+}
+
+section#presentation img.right{
+	float:right;
+	margin:0px 0px 0px 0px;
+	width:48%;
+	height:auto;
+}
+
+section#presentation img.left{
+	float:none;
+	position:relative;
+	left:-20px;
+	margin:0px 0px 0px 0px;
+	width:48%;
+	height:auto;
+}
+
+section#presentation img.middle{
+	float:none;
+	position:relative;
+	width:100%;
+	height:auto;
+}
+
+section#home{
+	padding:50px 0px 50px 20px;
+	margin:0 6%;
+	text-align:center;
+}
+
+section#presentation{
+	margin:50px 5%;
+	text-align:center;
+}
+
+iframe{
+	width:80%;
+}
+
+section#presentation h1{
+	padding:0 0 30px 0;
+}
+
+section#presentation a{
+	color:#FF8484;
+}
+section#presentation a:hover{
+	color:#F00;
+}
+
+section#presentation img{
+	float:left;
+	margin:0px 40px 0 0;
+	width:60%;
+	height:auto;
+}
+
+section#presentation p{
+	text-align:left;
+}
+
+section#home ul{
+	height:1360px;	
+}
+
+section#home ul li{
+	width:250px;
+	height:250px;
+	background-color:#CCC;
+	display:inline;
+	float:left;
+	margin:0 20px 20px 0;
+	opacity:0.7;
+	transition:.2s;
+}
+
+section#home ul li:hover{
+	opacity:1;	
+}
+
+section#home ul li p{
+	text-align:center;
+	margin-top:15px;
+	color:#666;
+}
+
+section p a{
+	font-style:italic;
+}
+
+section h1{
+	margin-top:20px;
+	text-align:center;	
+}
+/*
+.clair{
+	
+	background:#CCC;
+	border-radius:7px;
+	height:15px;
+	width:15px;
+	margin-top:10px;
+	margin-left:25px;
+}
+.fonce{
+	background:#000;
+	border-radius:7px;
+	height:15px;
+	width:15px;
+	margin-top:10px;
+	margin-left:25px;
+}
+*/
+section#software ul{
+	margin: 50px 10% 80px 10%;
+	height: 200px;
+}
+
+section#software{
+	height:900px;	
+}
+
+section#software ul li {
+	display:inline;	
+	float:left;
+	width:150px;
+	margin: 0 0 50px 0;
+}
+
+section#software h1{
+	text-align:left;
+	margin:50px 0 0 150px;
+}
+
+section#software ul li h2{
+	text-align:center;
+	position:relative;
+	left:7px;
+	margin-top:30px;
+}
+
+section#software ul li img{
+	position:relative;
+	left:30px;
+}
+
+#moi{
+	float:right;
+	margin: 30px 130px 0 30px;
+	text-align:center;	
+}
+
+#moi h2{
+	margin-bottom:10px;
+	font-size: 20px;
+}
+
+section#contact{
+	margin:50px 0 50px 50px;
+}
+
+section#contact img{
+	float:right;
+	margin:30px 0 0 0;
+}
+
+section#contact a{
+	font-size:25px;
+	color:#666;
+	font-style:italic;
+}
+
+section#contact h1{
+	text-align:left;
+	margin: 0 0 50px 0;
+}
+
+footer{
+	font-family:light;
+	text-align:center;
+	color:#999;
+}
+
+@media all and (max-width : 1280px)
+{
+	#page{
+		margin:0;
+	}
+	
+	section#presentation iframe{
+	width:100%;
+	height:505px;
+}
+}
